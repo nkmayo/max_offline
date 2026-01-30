@@ -1,0 +1,11 @@
+[workspace]
+channels = ["conda-forge", "https://conda.modular.com/max-nightly"]
+name = "max_offline"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+modular = ">=26.2.0.dev2026013000,<27"
